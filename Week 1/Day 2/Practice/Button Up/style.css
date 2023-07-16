@@ -1,0 +1,30 @@
+.body {
+    margin-left: 30px;
+}
+
+.Search{
+    background-color: white;
+    border-color: rgba(11, 204, 204, 0.377);
+    color: rgba(11, 204, 204, 0.377);
+    padding: 5px;
+    border-radius: 10px;
+    width: 15%;
+    font-size: 80%;
+}
+
+.button{
+    background-color: aqua;
+    color: white;
+    border-radius: 60%;
+    border:none;
+    font-size: 100%;
+    
+}
+
+.Create{
+    background-color: dodgerblue;
+    color: white;
+    border-color: black;
+    box-shadow: 5px 3px 3px black;
+
+}
