@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: silver;
+    }
+
+img.octocat {
+    height: 200px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ligne1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+
+}
+.ligne2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(250, 81, 115);
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+}
+.ligne3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px 20px 0px 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+
+.Fin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
