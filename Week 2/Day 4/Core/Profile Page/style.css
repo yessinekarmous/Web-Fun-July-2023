@@ -1,0 +1,132 @@
+* {
+    padding: 0 ;
+    margin: 0;
+}
+
+.liste a,li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: silver;
+    text-decoration: none;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.Sign button{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 95px;
+    height: 30px;
+    padding: 2px;
+    background-color: #17a2b8;
+    border-color: black;
+    
+    }
+
+.liste{
+    list-style: none;
+
+    
+}
+
+.liste li{
+    display: inline-block;
+    padding: 20px;
+}
+.Prof h4,h5{
+    color: white;
+    font-size: 18px;
+}
+
+
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 50px;
+}
+.Container1{
+    position: relative;
+    left: 250px;
+    border: 4px solid silver;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-top: none;
+}
+.Blue{
+    background-color: #007aff;
+    width: 100%;
+    height: 30%;
+    border: 4px solid #007aff;
+    position: relative;
+    right: 4px;  
+}
+.Textee {
+    height: 70%;
+    padding: 50px 30px;
+    font-family:"Poppins",sans-serif;
+    background-color: white;    
+}
+.profil img{
+    width: 80px;
+    height: 80px;
+    border: solid silver 3px ;
+    border-radius: 60px;
+    padding: 2px;
+    background-color: white;
+}
+.profil{
+    position: relative ;
+    top: 50px;
+    left: 30px;   
+}
+.photo{
+    height: 12px;
+    width: 12px;
+}
+.end{
+    padding-top:18px;
+}
+a{
+    color: rgb(14, 47, 230);
+}
+
+.Container1,.Container2{
+    display: inline-block;
+}
+.Container2{
+    position: relative;
+    left: 250px;
+    background-color: aqua;
+    width: 20%;
+    height:100%;
+    
+}
+.top{
+    background-color: #343a40;
+}
+.yesno{
+    display: inline-block;
+    display: flex;
+}
+
+.ligne1{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    
+}
+.ligne1 img{
+    height: 15px;
+    width: 15px;
+}
