@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    padding:0px 25%;
+    gap: 20px;
+    font-family: "Poppins",sans-serif;
+}
+.Top{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100% ;
+}
+.side{
+    width: 20%;
+    height: 250px;
+    gap: 30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid black;
+    padding: 17px 0px;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+
+.Box{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px black;
+    width: 50%;
+    gap: 10px;
+    padding: 20px 25px;
+    font-family: "Poppins",sans-serif;
+
+}
+.ligne1{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1
+
+}
+.likes{
+    font-size: 17px;
+     
+}
+button{
+    width:50px ;  
+    height: 30px;
+    border: black 3px solid;
+    box-shadow: 2px 4px 3px;
+    background-color: #FFD966;
+}
+#Tag{
+    padding-top: 18px;
+    font-size: 18px;
+}
+a{
+    color: rgb(8,83,148);
+    font-weight: bold;
+
+}
+.side2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 250px;
+    bottom: 310px;
+    gap: 25px;
+}
