@@ -1,0 +1,274 @@
+* {
+    padding: 0 ;
+    margin: 0;
+}
+.Container0{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.liste a,li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: silver;
+    text-decoration: none;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.Sign button{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 95px;
+    height: 30px;
+    
+background-color: #17a2b8;
+    border-color: black;
+    
+    }
+.liste{
+    list-style: none;  
+}
+.liste li{
+    display: inline-block;
+    padding: 20px;
+}
+.Prof h4,h5{
+    color: white;
+    font-size: 18px;
+}
+
+.Box{
+    width: 100%;
+    padding: 0px 20% 0px 20%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Container1{
+    background-color: beige;
+    border: 3px solid silver;
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    overflow:hidden;
+    
+}
+.Top{
+    width: 100%;
+    background-color: #17A2B8;
+    height: 70px;
+    border: 5px solid #17A2B8;
+    
+
+    
+}
+.Texte{
+    font-family:"Poppins",sans-serif;
+    padding: 30px;
+    position: relative;
+    top:10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    
+}
+
+.Texte img {
+    width: 10px;
+    height: 10px;
+}
+.Top img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid silver;
+    border-radius: 50px;
+    padding: 2px;
+    background-color: white;
+    position:relative ;
+    top:30px;
+    left: 20px;
+}
+.Texte > h3 img {
+    width: 15px;
+    height: 18px;
+}
+
+.Container2{
+    display: flex;
+    flex-wrap:wrap;
+    width: 25%;
+    height: 46%;
+    border: 3px solid silver;
+    overflow: hidden;
+}
+.Top2 {
+    width: 100%;
+    height: 22%;
+    padding: 6px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51,51,51);
+    color: white;
+    
+}
+header{
+    position: relative;
+    top: 3px;
+}
+.Num {
+    width: 20px;
+    height: 20px;
+    color: black;
+    border: 3px solid #CCCCCC;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #CCCCCC;
+    position: relative;
+    right: 7px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.ligne1{
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ligne1 img {
+    padding: 10px;
+}
+.ligne1 p{
+    padding: 10px;
+}
+#YES{
+    /*position: relative;
+    left: 26px;*/
+    height: 20px;
+    width: 20px;
+}
+#User{
+    height: 30px;
+    width: 30px;
+    padding: 5px 10px 5px 8px;
+}
+.Container2 p {
+    position: relative;
+    right: 10px;
+}
+
+.Container3{
+    width: 50%;
+    border: 3px solid #C1C1C1;
+}
+
+.Top3{
+    width: 100%;
+    height: 20%;
+    padding: 6px 0px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(51,51,51);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.Top3 h4{
+    padding-left: 26px;
+}
+.Container3 p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    font-size: 17px;
+}
+.Container3 span{
+    color: rgb(118,118,118);
+    font-size: 16px;
+    text-decoration: solid;
+}
+
+
+.Num2 {
+    width: 35px;
+    height: 16px;
+    color: black;
+    border: 3px solid #CCCCCC;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #CCCCCC;
+    position: relative;
+    right: 7px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.Container4{
+    display: flex;
+    flex-wrap:wrap;
+    width: 25%;
+    border: 3px solid silver;
+    position: relative;
+    bottom: 25px;
+    
+    
+}
+.Content{
+    display: flex;
+    
+}
+.Photo{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.Names{
+    display: flex;
+    flex-direction: column;
+    
+}
+#Name{
+    height: 30px;
+    width: 30px;
+    padding: 5px 10px 5px 10px;}
+
+.ligne span{
+    position: relative;
+    bottom: 14px;
+    padding-left: 4px;
+}
+
+
+.End{
+    background-color: white;
+    border:3px solid silver ;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 6px;
+    
+    
+
+}
+.End a{
+    color: #17A2B8;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
