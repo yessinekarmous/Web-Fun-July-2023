@@ -272,3 +272,9 @@ header{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 10px;
 }
+
+#link2 {
+    background-color: white ;
+    border: black solid 3px;
+    
+}

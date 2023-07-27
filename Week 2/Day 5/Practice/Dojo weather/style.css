@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.Top{
+    background-color: rgb(159,197,248);
+    color: white;
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    padding: 10px 15%;
+    align-items: center;
+}
+.Top h1{
+    flex: 1;
+}
+
+.Top ul{
+    font-size: 20px;
+    display: flex;
+    gap: 65px;
+    list-style: none;
+}
+
+.Container{
+    padding: 0px 15%;
+    font-family:'Poppins', sans-serif;
+    font-weight:350;
+}
+.ligne{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 20px 0px;
+}
+.ligne h2{
+    flex: 1;
+    font-size: 25px;
+}
+.Container2{
+    padding-top: 20px;
+}
+.Box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 82.2px;
+    
+    
+}
+.Boxes{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 40px;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 10%;
+    
+
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h5{
+    font-size: 25px;
+}
+.temperature{
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+}
+#Max{
+    color: #D03937;
+}
+#Min{
+    color: #2B78E4;
+}
+#Pos{
+    position: relative;
+    right: 10px;
+}
+
+.Cookie img{
+    width: 70px;
+    height: 70px;
+}
+.Cookie{
+    background-color: #EEEEEE;
+    border: black solid 3px;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 40px;
+    position: fixed;
+    margin-top: 15px;
+
+}
+.Cookie button{
+    width: 100px;
+    height: 32px;
+    background-color: #9FC5F8;
+    border: black solid 3px;
+    border-radius: 4px;
+    box-shadow: 3px 4px 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+span{
+    font-size: 20px;
+    font-weight: 700;
+}
+a{
+    color: #1B609C;
+    font-weight: bold;
+}

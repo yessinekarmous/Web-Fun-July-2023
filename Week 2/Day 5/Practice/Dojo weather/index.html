@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Top">
+        <h1>DojoWeather</h1>
+        <ul class="trois">
+            <li onclick="alert('Loading Weather report')">Burbank</li>
+            <li onclick="alert('Loading Weather report')">Chicago</li>
+            <li onclick="alert('Loading Weather report')">Dallas</li>
+        </ul>
+        </div>
+    </div>
+    <div class="Container">
+        <div class="ligne">
+            <h2>San Jose</h2>
+            <p>show temperature in 
+            <select name="Unite" id="Nat" onchange="Change()" >
+                <option  value="°C">°C</option>
+                <option  value="°F">°F</option>
+            </select>
+            </p>
+        </div>
+
+        <div class="Container2">
+            <div class="Box">
+                <div class="Boxes">
+                    <h5>Today</h5>
+                    <img src="assets/some_rain.png" alt="rain">
+                    some rain
+                    <div class="temperature">
+                        <label id="Max">24</label>
+                        <label id="Min">18</label>
+                    </div>
+                </div>    
+                <div class="Boxes">
+                    <h5 id="Pos">Tomorrow</h5>
+                    <img src="assets/some_sun.png" alt="sun">
+                    <p id="Pos">some Sun</p>
+                    <div class="temperature">
+                        <label id="Max">27°</label>
+                        <label id="Min">19°</label>
+                    </div>
+                </div>  
+                <div class="Boxes">
+                    <h5>Friday</h5>
+                    <img src="assets/some_clouds.png" alt="clouds">
+                    some Clouds
+                    <div class="temperature">
+                        <label id="Max">21°</label>
+                        <label id="Min">16°</label>
+                    </div>
+                </div>    
+                <div class="Boxes">
+                    <h5>Saturday</h5>
+                    <img src="assets/some_sun.png" alt="rain">
+                    some rain
+                    <div class="temperature">
+                        <label id="Max">26°</label>
+                        <label id="Min">21°</label>
+                    </div>
+                </div>    
+            </div>
+            <div class="Cookie">
+                <img src="assets/cookie.png" alt="cookie">
+                <p><span>Stop!Cookie time</span><br>
+                We use Cookies(sadly not the edible ones) to personalize <br>
+                content and ads,to provide social media feature and to <br>
+                analyse our traffic. <a href="#">Read more</a></p>
+                <button onclick="Remove()">I Accept</button>
+            </div>  
+        
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
