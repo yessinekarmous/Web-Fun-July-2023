@@ -74,10 +74,10 @@ h5{
     display: flex;
     gap: 40px;
 }
-#Max{
+.Max{
     color: #D03937;
 }
-#Min{
+.Min{
     color: #2B78E4;
 }
 #Pos{
